@@ -12,6 +12,7 @@ import MicrosoftIcon from './../assets/colaborations/microsoft.svg';
 import SamsungIcon from './../assets/colaborations/samsung.svg';
 import TeslaIcon from './../assets/colaborations/tesla.svg';
 import VercelIcon from './../assets/colaborations/vercel.svg';
+import Footer from '../components/Footer';
 
 export default function Home() {
     let navigate = useNavigate();
@@ -115,11 +116,7 @@ export default function Home() {
                     </ul>
                 </section>
             </main>
-            <footer className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 py-3 text-center">
-                <p className="inline-block rounded-3xl bg-[#373737] px-8 py-2 text-white">
-                    @Copyright 2025
-                </p>
-            </footer>
+            <Footer />
         </>
     );
 }

@@ -1,3 +1,4 @@
+import Footer from '../components/Footer';
 import ContentImage from './../assets/aboutPage/about_page_img.jpg';
 
 import HomeHeader from './../components/HomeHeader';
@@ -45,6 +46,7 @@ export default function About() {
                     </div>
                 </section>
             </main>
+            <Footer />
         </>
     );
 }

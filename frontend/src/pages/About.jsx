@@ -37,9 +37,9 @@ export default function About() {
                     </p>
                 </section>
                 <section className="justify-self-end">
-                    <div>
+                    <div className="aspect-square h-[512px] overflow-hidden rounded-3xl">
                         <img
-                            className="block aspect-square h-[32rem] rounded-3xl object-cover"
+                            className="h-full w-full object-cover object-center"
                             src={ContentImage}
                             alt="A girl explaining to other colleagues"
                         />
